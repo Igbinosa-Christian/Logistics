@@ -181,7 +181,7 @@ label a:hover{
 .earn{
   position: absolute;
   top: 65%;
-  left: 30%;
+  left: 23%;
   text-align: center;
 }
 
@@ -281,7 +281,7 @@ label a:hover{
     background-color: transparent;
     border: 1px solid black;
     border-radius: 4px;
-    width: 70%;
+    width: 60%;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
