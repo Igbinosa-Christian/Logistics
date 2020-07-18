@@ -100,7 +100,7 @@ label .hamburger:after { bottom: -10px; }
 label input { display: none; }
 
 label input:checked + .menu {
-  box-shadow: 0 0 0 100vw black 0 0 0 100vh black;
+  box-shadow: 0 0 0 100vw black;
 }
 
 label input:checked + .menu .hamburger {
@@ -181,13 +181,13 @@ label a:hover{
 .earn{
   position: absolute;
   top: 65%;
-  left: 22%;
+  left: 30%;
   text-align: center;
 }
 
 .earn .icon i{
   font-size: 3em;
-  color: blue;
+  color: green;
 }
 
 .order{
@@ -281,7 +281,7 @@ label a:hover{
     background-color: transparent;
     border: 1px solid black;
     border-radius: 4px;
-    width: 60%;
+    width: 70%;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
@@ -452,13 +452,6 @@ footer{
 .select a:hover{
   color: black;
 }
-
-media only screen and (max-width: 600px){
-	
-	.select{
-                font-size: 2.5em;
-	}
-
 
 .question{
   font-weight: bold;
